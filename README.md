@@ -6,3 +6,4 @@ scrape general con la url parametrizada
 python -m runners.cli crawl --start-url "https://www.peugeot.com.ar" --depth 2 --out data/peugeot_urls.json
 
 Scrape → genera data/peugeot_pages.jsonl y data/peugeot_pages.csv
+python -m runners.cli scrape --urls-file data/peugeot_urls.json --out-jsonl data/peugeot_pages.jsonl --out-csv data/peugeot_pages.csv
