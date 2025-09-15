@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+lxml
+httpx
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+tqdm
